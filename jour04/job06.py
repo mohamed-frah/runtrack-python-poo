@@ -38,12 +38,12 @@ class Moto(Vehicule):
         print("La moto démarre...")
 
 
-# Instanciation et utilisation de la classe Voiture
-voiture = Voiture("Toyota", "Corolla", 2023, 25000)
+
+voiture = Voiture("Audi", "A7", 2023, 25000)
 voiture.informationsVehicule()
 voiture.demarrer()
 
-# Instanciation et utilisation de la classe Moto
-moto = Moto("Yamaha", "FZ6", 2022, 8000)
+
+moto = Moto("Honda", "X-ADV", 2022, 8000)
 moto.informationsVehicule()
 moto.demarrer()
