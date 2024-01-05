@@ -39,11 +39,11 @@ class Moto(Vehicule):
 
 
 
-voiture = Voiture("Audi", "A7", 2023, 25000)
+voiture = Voiture("Audi", "A7", 2024, 75000)
 voiture.informationsVehicule()
 voiture.demarrer()
 
 
-moto = Moto("Honda", "X-ADV", 2022, 8000)
+moto = Moto("Honda", "X-ADV", 2022, 13000)
 moto.informationsVehicule()
 moto.demarrer()
